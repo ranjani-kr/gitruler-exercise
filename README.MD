@@ -20,17 +20,27 @@ For more information on running gitruler look at the [project repository](https:
 
 ## Instructions
 
-1. After cloning the repository change into the director on a [command line](https://www.techopedia.com/definition/3337/command-line-interface-cli).
+1. After cloning the repository change into the directory on a [command line](https://www.techopedia.com/definition/3337/command-line-interface-cli).
 2. Run gitruler to initialise the exercise.
 
+In these exercises we'll imagine that our shop-keeper is opening shops in new locations. To plan these, branches of master are used.
 
-## Creating and Switching Branches
+## Branching and working within a branch
 
-In this section we'll work with [branches](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
+1. Branch the repository to [create a new branch](https://githowto.com/creating_a_branch) called `new-location-1` from `master`.
+2. In the `new-location-1` branch add "Sunny Rosario" to a new row in `files/employees.txt`. Commit that change with the message "Add employee Sunny"
+3. [Switch back to](https://githowto.com/navigating_branches) the `master` branch add a new file called `files/products.txt` with the contents "Bananas". Commit this file with the message "Add products file".
+4. [Merge all changes](https://githowto.com/merging) from the `master` branch into the `new-location-1` branch.
+5. Merge all changes from the `new-location-1` branch into the `master` branch.
 
-1. There is a branch in this repository called "new-shop" which is used to plan the expansion of the fruit and veg shop to having multiple sites. [Switch to this branch](https://githowto.com/navigating_branches).
-2.    
+## Submitting the results
 
+Once the exercise is complete, push this repository to the remote. If there are multiple branches for an exercise, make sure that you push them all. 
+
+To ensure that you have you correctly pushed everything that you need to, you could clone the remote repository into a separate folder and re-run gitruler.
 
 ## Resources
 
+1. Creating branches: [https://githowto.com/creating_a_branch](https://githowto.com/creating_a_branch).
+2. Switching between branches: [https://githowto.com/navigating_branches](https://githowto.com/navigating_branches).
+3. Merging changes from one branch to another: [https://githowto.com/merging](https://githowto.com/merging).
