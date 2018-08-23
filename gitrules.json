@@ -7,7 +7,7 @@
     { "rule": "commit-with-message-updated-file", "path":"files/products.txt", "contents":"add products file", "ignore-case":true, "score-if-correct":5},
     { "rule": "commit-with-message-was-made-on-branch", "branch":"master", "contents":"Add products file", "ignore-case":true, "score-if-correct":5, "alternative-title":"Were the changes to the products file made on the master branch?" },
     { "rule": "file-tracked-in-branch", "branch":"new-location-1", "path":"files/products.txt", "score-if-correct":5 },
-    { "rule": "commit-with-message-was-merged-into-branch", "branch":"new-location-1", "contents":"Add products file", "ignore-case":true, "score-if-correct":5, "alternative-title":"Change to the employee file were initially made on the new branch" },    
+    { "rule": "commit-with-message-was-made-on-branch", "branch":"new-location-1", "contents":"add employee sunny", "ignore-case":true, "score-if-correct":5, "alternative-title":"Change to the employee file were initially made on the new branch" },    
     { "rule": "file-contains-in-branch", "branch":"master", "path":"files/employees.txt", "contents":"Sunny Rosario", "ignore-case":true, "score-if-correct":5 },
     { "rule": "commit-with-message-was-merged-into-branch", "branch":"master", "contents":"Add products file", "ignore-case":true, "score-if-correct":5, "alternative-title":"Change to the employee file were merged into the master branch" }
   ]

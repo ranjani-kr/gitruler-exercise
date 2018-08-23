@@ -2,7 +2,7 @@
 Marked Style: Github
 -->
 
-# GitRuler Section C
+# GitRuler Section E
 
 This repository is section C of the [GitRuler exercises](https://github.com/UOL-CS/gitruler-exercises).
 
@@ -27,7 +27,7 @@ In these exercises we'll imagine that our shop-keeper is opening shops in new lo
 
 ## Branching and working within a branch
 
-1. Branch the repository to [create a new branch](https://githowto.com/creating_a_branch) called `new-location-1` from `master`.
+1. [Create a new branch](https://githowto.com/creating_a_branch) in this repository called `new-location-1` from `master`.
 2. In the `new-location-1` branch add "Sunny Rosario" to a new row in `files/employees.txt`. Commit that change with the message "Add employee Sunny"
 3. [Switch back to](https://githowto.com/navigating_branches) the `master` branch add a new file called `files/products.txt` with the contents "Bananas". Commit this file with the message "Add products file".
 4. [Merge all changes](https://githowto.com/merging) from the `master` branch into the `new-location-1` branch.
