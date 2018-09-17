@@ -21,6 +21,14 @@
       "alternative-title": "'Sunny Rosario' was added to the customers file in the new branch."
     },
     {
+      "rule": "commit-with-message-was-made-on-branch",
+      "branch": "new-location-1",
+      "contents": "add employee sunny",
+      "ignore-case": true,
+      "score-if-correct": 10,
+      "alternative-title": "Changes to the employee file were initially made on the new branch."
+    },
+    {
       "rule": "commit-with-message-updated-file",
       "path": "files/products.txt",
       "contents": "add products file",
@@ -51,14 +59,6 @@
       "path": "files/products.txt",
       "score-if-correct": 10,
       "alternative-title": "The products file was merged into the 'new-location-1' branch."
-    },
-    {
-      "rule": "commit-with-message-was-made-on-branch",
-      "branch": "new-location-1",
-      "contents": "add employee sunny",
-      "ignore-case": true,
-      "score-if-correct": 10,
-      "alternative-title": "Changes to the employee file were initially made on the new branch."
     },
     {
       "rule": "file-contains-in-branch",
