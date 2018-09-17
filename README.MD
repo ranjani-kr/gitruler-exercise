@@ -4,32 +4,16 @@ Marked Style: Github
 
 # GitRuler Section E
 
-This repository is section E of the [GitRuler exercises](https://github.com/UOL-CS/gitruler-exercises).
+This repository is section C of the [GitRuler exercises](https://github.com/UOL-CS/gitruler-exercises). If you do not already have a your own repository for these exercises [fork this repository](https://help.github.com/articles/fork-a-repo/). 
 
 In this exercise we will learn about branching and merging.
 
-## Introduction
-
-If you do not already have a your own repository for these exercises [fork this repository](https://help.github.com/articles/fork-a-repo/). Clone this repository
-
-At any time you can run gitruler to check your progress. From the command line run:
-
-`java -jar <path to gitruler.jar>`
-
-For more information on running gitruler look at the [project repository](https://github.com/rcraggs/gitruler).
-
-## Instructions
-
-1. After cloning the repository change into the directory on a [command line](https://www.techopedia.com/definition/3337/command-line-interface-cli).
-2. Run gitruler to initialise the exercise.
-
-In these exercises we'll imagine that our shop-keeper is opening shops in new locations. To plan these, branches of master are used.
-
 ## Branching and working within a branch
 
+1. Run GitRuler to initialise the exercise.
 1. [Create a new branch](https://githowto.com/creating_a_branch) in this repository called `new-location-1` from `master`.
-2. In the `new-location-1` branch add "Sunny Rosario" to a new row in `files/employees.txt`. Commit that change with the message "Add employee Sunny"
-3. [Switch back to](https://githowto.com/navigating_branches) the `master` branch add a new file called `files/products.txt` with the contents "Bananas". Commit this file with the message "Add products file".
+2. In the `new-location-1` branch add "Sunny Rosario" to a new line in `files/employees.txt`. Commit that change with the message "Add employee Sunny"
+3. [Switch back to](https://githowto.com/navigating_branches) the `master` branch add a new file called `files/products.txt` containing "Bananas". Commit this file with the message "Add products file".
 4. [Merge all changes](https://githowto.com/merging) from the `master` branch into the `new-location-1` branch.
 5. Merge all changes from the `new-location-1` branch into the `master` branch.
 
