@@ -2,3 +2,6 @@
 files/ideas/*.bak
 files/ideas/drafts/
 
+# OS generated files #
+.DS_Store
+
