@@ -1,5 +1,4 @@
 # Backup files #
-//*.bak
-files/ideas/*.bak
+*.bak
 files/ideas/drafts/
 
