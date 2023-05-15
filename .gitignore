@@ -1,6 +1,5 @@
 # Backup files #
-*.bak
+//*.bak
 files/ideas/*.bak
 files/ideas/drafts/
-
 
