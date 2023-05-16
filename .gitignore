@@ -1,3 +1,7 @@
 #OS generated files#
 .DS_Store
 
+# Backup files #
+files/ideas/*.bak
+files/ideas/drafts/
+*.bak
